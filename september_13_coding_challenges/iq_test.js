@@ -1,3 +1,5 @@
+// IQ Test https://www.codewars.com/kata/552c028c030765286c00007d
+
 function iqTest(numbers) {
 	let checkNum = numbers.split(' ').filter((x) => Number(x) % 2 !== 0)
 	if (checkNum.length === 1) {
